@@ -1,7 +1,10 @@
 """
 https://www.geeksforgeeks.org/graph-plotting-in-python-set-1/
 """
-import matplotlib.pyplot as plt
+"""
+https://mpld3.github.io/quickstart.html
+"""
+import matplotlib.pyplot as plt, mpld3
 
 # x axis values
 x = [1, 2, 3, 4, 5, 6]
@@ -25,4 +28,5 @@ plt.ylabel('y - axis')
 plt.title('Some cool customizations!')
 
 # function to show the plot
-plt.show()
+# plt.show()
+mpld3.show()
